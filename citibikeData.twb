@@ -661,7 +661,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='201707-citibike-tripdata' name='textscan.13fnied0881jjk114btc31bb1mco'>
-            <connection class='textscan' directory='/Users/mphillipuk/Downloads/data/citidata2017-2019' filename='201707-citibike-tripdata.csv' password='' server='' />
+            <connection class='textscan' directory='/Users/mphillipuk/dataBootcamp/HomeWork/18-Tableau/citibike-analysis/citidata2017-2019' filename='201707-citibike-tripdata.csv' password='' server='' />
           </named-connection>
         </named-connections>
         <relation all='true' name='Union' type='union'>
@@ -1348,7 +1348,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='201707-citibike-tripdata' name='textscan.0bowwzm0mj4l6c1721iro0rjsa22'>
-            <connection class='textscan' directory='/Users/mphillipuk/Downloads/data/citidata2017-2019' filename='201707-citibike-tripdata.csv' password='' server='' />
+            <connection class='textscan' directory='/Users/mphillipuk/dataBootcamp/HomeWork/18-Tableau/citibike-analysis/citidata2017-2019' filename='201707-citibike-tripdata.csv' password='' server='' />
           </named-connection>
         </named-connections>
         <relation all='true' name='Union' type='union'>
@@ -4728,8 +4728,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='19' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='20' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='21' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='22' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Average Trip Duration by Age Group' w='55800' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4848,8 +4848,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='13' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='14' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='15' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='16' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Mileage per Bike ID' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4968,7 +4968,7 @@
                   <run fontalignment='1'>Æ&#10;</run>
                   <run bold='true' fontalignment='1' fontsize='12'>Bike Usage by Gender</run>
                   <run fontalignment='1'>Æ&#10;</run>
-                  <run>&#10;Males dominate usage, constituting above 60% of overall ridership in the summer months, and over 70% in the winter months. As hourly bike ride numbers indicate high usage for commuting purposes, one might propose that traditional female work attire may make bike usage less desirable for this purpose. However, trend lines show a very slight increase in percentage of female ridership during this period, though male ridership percentage is trending upward as well. Only the unidentified gender category percentage shows decreasing trends. Current outreach for increased female users does show significant increases, so more or better initiatives are warranted for change.</run>
+                  <run>&#10;Males dominate usage, constituting above 60% of overall ridership in the summer months, and over 70% in the winter months. As hourly bike ride numbers indicate high usage for commuting purposes, one might propose that traditional female work attire may make bike usage less desirable for this purpose. However, trend lines show a very slight increase in percentage of female ridership during this period, though male ridership percentage is trending upward as well. Only the unidentified gender category percentage shows decreasing trends. Current outreach for increased female users does not show significant impact, so more or better initiatives are warranted for change.</run>
                 </formatted-text>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
@@ -4991,8 +4991,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='24' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='25' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='26' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='27' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='61875' id='9' is-fixed='true' name='Bike Usage by Gender' w='81200' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5007,7 +5007,7 @@
                     <run fontalignment='1'>Æ&#10;</run>
                     <run bold='true' fontalignment='1' fontsize='12'>Bike Usage by Gender</run>
                     <run fontalignment='1'>Æ&#10;</run>
-                    <run>&#10;Males dominate usage, constituting above 60% of overall ridership in the summer months, and over 70% in the winter months. As hourly bike ride numbers indicate high usage for commuting purposes, one might propose that traditional female work attire may make bike usage less desirable for this purpose. However, trend lines show a very slight increase in percentage of female ridership during this period, though male ridership percentage is trending upward as well. Only the unidentified gender category percentage shows decreasing trends. Current outreach for increased female users does show significant increases, so more or better initiatives are warranted for change.</run>
+                    <run>&#10;Males dominate usage, constituting above 60% of overall ridership in the summer months, and over 70% in the winter months. As hourly bike ride numbers indicate high usage for commuting purposes, one might propose that traditional female work attire may make bike usage less desirable for this purpose. However, trend lines show a very slight increase in percentage of female ridership during this period, though male ridership percentage is trending upward as well. Only the unidentified gender category percentage shows decreasing trends. Current outreach for increased female users does not show significant impact, so more or better initiatives are warranted for change.</run>
                   </formatted-text>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5140,8 +5140,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='900' minheight='900' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='26' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='27' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='28' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='29' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone h='23000' id='11' mode='checkdropdown' name='Summer Ride Profile by Weekday' param='[federated.0t5srdd0ehoq8i1a1sapz1f1suxh].[wd:Calculation_3150901270720638977:ok]' type='filter' w='24200' x='75000' y='26250'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5296,8 +5296,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='26' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='27' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='28' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='29' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='Monthly Ridership' w='62800' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5479,8 +5479,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='30' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='31' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='32' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='33' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
                 <zone h='9375' id='13' mode='slider' name='Citibike Station Locations' param='[federated.0t5srdd0ehoq8i1a1sapz1f1suxh].[my:Calculation_3150901270720638977:ok]' type='filter' w='35646' x='800' y='89625'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5662,8 +5662,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='17' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='18' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='19' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='20' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Percent Usage by Age Group 7/17-6/19' w='47700' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6716,7 +6716,7 @@
       <active id='-1' />
       <simple-id uuid='{4936736A-649F-49F8-B160-4B5D653DE77C}' />
     </window>
-    <window class='dashboard' maximized='true' name='Top Stations'>
+    <window class='dashboard' name='Top Stations'>
       <viewpoints>
         <viewpoint name='Bottom 10 End Locations' />
         <viewpoint name='Bottom 10 Locations' />
@@ -6739,7 +6739,7 @@
       <active id='19' />
       <simple-id uuid='{792F3622-FBD3-48AC-8F79-D2275ED58418}' />
     </window>
-    <window class='dashboard' name='Gender Breakdown'>
+    <window class='dashboard' maximized='true' name='Gender Breakdown'>
       <viewpoints>
         <viewpoint name='Bike Usage by Gender'>
           <zoom type='entire-view' />
@@ -6748,7 +6748,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='15' />
       <simple-id uuid='{F05C6A4B-70BC-4F7B-9B63-8799A1209098}' />
     </window>
     <window class='dashboard' name='Age Breakdown'>
