@@ -8,7 +8,7 @@ Citi Bike trip data was downloaded from the [Citi Bike Data](https://www.citibik
 
 ## Ridership Growth from July 2017 to June 2019
 
-![Ridership](images/RidershipGrowth.png?raw=true)
+![Ridership](images/RidershipGrowth.PNG)
 
 Overall number of bike rides has increased, with over 1.7 million bike trips logged in June 2019. Ridership has increased in each of the last four quarters (Q3 2018 to Q2 2019) compared to the same quarters in the prior year, with the largest percentage increase of 27.58% growth between Q1 of 2018 and Q1 of 2019.
 
